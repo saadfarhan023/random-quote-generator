@@ -1,0 +1,40 @@
+ body {
+     margin: 0 auto;
+     max-width: 512px;
+     padding-top: 14px;
+     background-color: #f3f4f6;
+ }
+
+ .container {
+     padding: 4px;
+ }
+
+ #quote {
+     font-style: italic;
+     font-size: 1.5rem;
+ }
+
+ #author {
+     font-size: 1rem;
+     font-family: serif;
+     text-align: right;
+ }
+
+ #refetchBtn {
+     background-color: black;
+     color: white;
+     border: 1px solid #000;
+     margin: 4px;
+     display: block;
+     margin: 4px auto;
+     transition: background-color 200ms, color 200ms;
+     border-radius: 20px;
+     cursor: pointer;
+     padding: 5px 10px;
+ }
+
+ #refetchBtn:hover {
+     background-color: white;
+     border: 1px solid black;
+     color: black;
+ }
